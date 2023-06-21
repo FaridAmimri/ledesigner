@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className='fixed w-full top-0 bg-white '>
+      <nav className='fixed w-full top-0 bg-white z-10 '>
         <div className='container mx-auto py-5 flex items-center justify-between'>
           <div className='flex items-center gap-2'>
             <Image src='/logo.png' alt='logo' width={32} height={50} />
