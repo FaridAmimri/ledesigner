@@ -14,6 +14,9 @@ module.exports = {
     extend: {
       screens: {
         sm: '480px'
+      },
+      spacing: {
+        big: '33rem'
       }
     }
   },
